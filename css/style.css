@@ -139,6 +139,28 @@ nav a:hover {
   color: #3498db;
 }
 
+/* New Cart Icon Styles */
+.cart-link {
+  display: inline-block;
+  line-height: 1;
+}
+
+.cart-icon-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.cart-img {
+  width: 28px;
+  height: 28px;
+  vertical-align: middle;
+  transition: transform 0.2s ease;
+}
+
+.cart-link:hover .cart-img {
+  transform: scale(1.1);
+}
+
 .cart-icon {
   position: relative;
   font-size: 1.2rem;
@@ -150,6 +172,13 @@ nav a:hover {
   color: #3498db;
 }
 
+.cart-icon img {
+  width: 24px;
+  height: 24px;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
 .cart-count {
   position: absolute;
   top: -8px;
@@ -157,10 +186,16 @@ nav a:hover {
   background: #e74c3c;
   color: white;
   font-size: 0.75rem;
-  padding: 2px 6px;
+  font-weight: bold;
+  height: 20px;
+  width: 20px;
   border-radius: 50%;
-  min-width: 18px;
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+  border: 2px solid white;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
 }
 
 /* Footer */

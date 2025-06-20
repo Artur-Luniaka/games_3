@@ -12,9 +12,14 @@ function createHeader() {
                         <li><a href="./#featured-games">Featured Games</a></li>
                         <li><a href="./#store-history">Our Story</a></li>
                         <li><a href="./#contact-section">Get in Touch</a></li>
-                        <li><a href="cart.html" class="cart-icon">
-                            🛒 <span class="cart-count" id="cart-count">0</span>
-                        </a></li>
+                        <li>
+                            <a href="cart.html" class="cart-link">
+                                <div class="cart-icon-wrapper">
+                                    <img src="images/shop-cart.png" alt="Cart" class="cart-img">
+                                    <span class="cart-count" id="cart-count">0</span>
+                                </div>
+                            </a>
+                        </li>
                     </ul>
                 </nav>
             </div>
