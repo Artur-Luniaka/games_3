@@ -67,7 +67,7 @@
 
 .cart-item {
   display: grid;
-  grid-template-columns: auto 1fr auto auto auto;
+  grid-template-columns: auto 1fr auto auto;
   gap: 1.5rem;
   align-items: center;
   padding: 1.5rem 0;

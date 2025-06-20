@@ -4,14 +4,14 @@ function createHeader() {
   header.innerHTML = `
         <div class="container">
             <div class="header-content">
-                <a href="index.html" class="logo">Game<span>Zone</span></a>
+                <a href="./" class="logo">SkillLoot<span>Playground</span></a>
                 <nav>
                     <ul>
-                        <li><a href="index.html">Home</a></li>
+                        <li><a href="./">Home</a></li>
                         <li><a href="catalog.html">Games</a></li>
-                        <li><a href="index.html#featured-games">Featured Games</a></li>
-                        <li><a href="index.html#store-history">Our Story</a></li>
-                        <li><a href="index.html#contact-section">Get in Touch</a></li>
+                        <li><a href="./#featured-games">Featured Games</a></li>
+                        <li><a href="./#store-history">Our Story</a></li>
+                        <li><a href="./#contact-section">Get in Touch</a></li>
                         <li><a href="cart.html" class="cart-icon">
                             🛒 <span class="cart-count" id="cart-count">0</span>
                         </a></li>

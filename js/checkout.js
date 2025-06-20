@@ -264,19 +264,23 @@ class CheckoutPage {
 
   // Show success page
   showSuccessPage() {
-    const main = document.querySelector("main");
-    if (!main) return;
+    const checkoutContent = document.querySelector(".checkout-content");
+    if (!checkoutContent) return;
 
-    main.innerHTML = `
-            <div class="container">
-                <div class="checkout-success">
-                    <div class="success-icon">✅</div>
-                    <h2>Order Placed Successfully!</h2>
-                    <p>Thank you for your purchase. You will receive a confirmation email shortly with your order details and download instructions.</p>
-                    <a href="index.html" class="back-to-home-btn">Back to Home</a>
-                </div>
-            </div>
-        `;
+    // Change parent display to center content
+    checkoutContent.style.display = "block";
+
+    // Scroll to top
+    window.scrollTo({ top: 0, behavior: "smooth" });
+
+    checkoutContent.innerHTML = `
+      <div class="checkout-success">
+        <div class="success-icon">✔</div>
+        <h2>Order Placed Successfully!</h2>
+        <p>Thank you for your purchase. You will receive a confirmation email shortly with your order details and download instructions.</p>
+        <a href="./" class="back-to-home-btn">Back to Home</a>
+      </div>
+    `;
   }
 
   // Show notification

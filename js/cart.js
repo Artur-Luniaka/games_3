@@ -68,8 +68,7 @@ class CartManager {
   // Get cart total
   getCartTotal() {
     return this.cart.reduce((total, item) => {
-      const price = item.originalPrice || item.price;
-      return total + price * item.quantity;
+      return total + item.price * item.quantity;
     }, 0);
   }
 
@@ -108,18 +107,6 @@ class CartManager {
 
   // Setup event listeners
   setupEventListeners() {
-    // Listen for add to cart events
-    document.addEventListener("click", (e) => {
-      if (e.target.classList.contains("add-to-cart-btn")) {
-        e.preventDefault();
-        const gameId = e.target.dataset.gameId;
-        const game = this.getGameById(gameId);
-        if (game) {
-          this.addToCart(game);
-        }
-      }
-    });
-
     // Listen for quantity change events
     document.addEventListener("click", (e) => {
       if (e.target.classList.contains("quantity-btn")) {
@@ -167,19 +154,6 @@ class CartManager {
     });
   }
 
-  // Get game by ID (placeholder - should be replaced with actual game data)
-  getGameById(gameId) {
-    // This should be replaced with actual game data from JSON
-    // For now, return a placeholder
-    return {
-      id: gameId,
-      title: "Game Title",
-      price: 59.99,
-      image: "images/game-placeholder.jpg",
-      platform: "PC",
-    };
-  }
-
   // Render cart page
   renderCartPage() {
     const cartItemsContainer = document.getElementById("cart-items");
@@ -214,23 +188,15 @@ class CartManager {
                 (item) => `
                 <div class="cart-item" data-game-id="${item.id}">
                     <div class="cart-item-image">
-                        <img src="${item.image}" alt="${item.title}">
+                        <img src="${item.image}" alt="${
+                  item.title
+                }" onerror="this.src='images/game-placeholder.jpg'">
                     </div>
                     <div class="cart-item-details">
                         <h3 class="cart-item-title">${item.title}</h3>
                         <span class="cart-item-platform ${item.platform.toLowerCase()}">${
                   item.platform
                 }</span>
-                        <div class="cart-item-price">
-                            ${
-                              item.originalPrice
-                                ? `<span class="original">$${item.originalPrice.toFixed(
-                                    2
-                                  )}</span>`
-                                : ""
-                            }
-                            $${item.price.toFixed(2)}
-                        </div>
                     </div>
                     <div class="cart-item-quantity">
                         <div class="quantity-controls">
@@ -249,7 +215,7 @@ class CartManager {
                 }">+</button>
                         </div>
                     </div>
-                    <div class="cart-item-total">
+                    <div class="cart-item-price">
                         $${(item.price * item.quantity).toFixed(2)}
                     </div>
                     <div class="cart-item-remove">

@@ -1,4 +1,4 @@
-# GameZone - Xbox & PC Games E-commerce Website
+# SkillLootPlayground - Xbox & PC Games E-commerce Website
 
 A modern, responsive e-commerce website for selling Xbox and PC video games, specifically designed for the Australian market.
 
@@ -224,12 +224,13 @@ games_3/
 2. JavaScript files handle dynamic content
 3. JSON files contain game data
 
-## 📞 Support
+## 📧 Contact
 
 For questions or issues:
 
-- Email: info@gamezone.com.au
-- Phone: +61 2 1234 5678
+- Email: info@skilllootplayground.com
+- Phone: +61 2 3871 0066
+- Address: 123 Gaming Street, Sydney, NSW 2000, Australia
 
 ## 📄 License
 
@@ -237,4 +238,4 @@ This project is created for educational and demonstration purposes.
 
 ---
 
-**GameZone** - Level Up Your Gaming Experience 🎮
+**SkillLootPlayground** - Level Up Your Gaming Experience 🎮

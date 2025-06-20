@@ -50,7 +50,7 @@ class GameDetailsPage {
     const game = this.currentGame;
 
     // Set page title
-    document.title = `${game.title} - GameZone`;
+    document.title = `${game.title} - SkillLootPlayground`;
 
     // Render hero section
     this.renderGameHero(game);

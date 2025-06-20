@@ -173,6 +173,9 @@ class HomePage {
 
       // Reset form
       form.reset();
+
+      // Scroll to top
+      window.scrollTo({ top: 0, behavior: "smooth" });
     } catch (error) {
       this.showNotification(
         "Failed to send message. Please try again.",
