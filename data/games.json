@@ -1,0 +1,282 @@
+{
+  "games": [
+    {
+      "id": "cyberpunk-2077",
+      "title": "Cyberpunk 2077",
+      "description": "An open-world action-adventure story set in Night City, a megalopolis obsessed with power, glamour and body modification. You play as V, a mercenary outlaw going after a one-of-a-kind implant that is the key to immortality.",
+      "price": 59.99,
+      "originalPrice": 79.99,
+      "platform": "PC",
+      "image": "images/cyberpunk-2077.jpg",
+      "heroImage": "images/cyberpunk-2077.jpg",
+      "rating": 4.2,
+      "ratingCount": 15420,
+      "genre": "RPG",
+      "releaseDate": "2020-12-10",
+      "developer": "CD Projekt Red",
+      "publisher": "CD Projekt",
+      "features": [
+        "Open World",
+        "RPG Elements",
+        "First Person",
+        "Cyberpunk Setting"
+      ],
+      "systemRequirements": {
+        "minimum": {
+          "os": "Windows 10",
+          "processor": "Intel Core i5-3570K",
+          "memory": "8 GB RAM",
+          "graphics": "NVIDIA GeForce GTX 970",
+          "storage": "70 GB"
+        }
+      },
+      "tags": ["featured", "sale"]
+    },
+    {
+      "id": "elden-ring",
+      "title": "Elden Ring",
+      "description": "Rise, Tarnished, and be guided by grace to brandish the power of the Elden Ring and become an Elden Lord in the Lands Between. A vast world where open fields with a variety of situations and huge dungeons with complex and three-dimensional designs are seamlessly connected.",
+      "price": 79.99,
+      "platform": "PC",
+      "image": "images/elden-ring.jpg",
+      "heroImage": "images/elden-ring-hero.jpg",
+      "rating": 4.8,
+      "ratingCount": 23450,
+      "genre": "Action RPG",
+      "releaseDate": "2022-02-25",
+      "developer": "FromSoftware",
+      "publisher": "Bandai Namco",
+      "features": [
+        "Open World",
+        "Souls-like Combat",
+        "Multiplayer",
+        "Fantasy Setting"
+      ],
+      "systemRequirements": {
+        "minimum": {
+          "os": "Windows 10",
+          "processor": "Intel Core i5-8400",
+          "memory": "12 GB RAM",
+          "graphics": "NVIDIA GeForce GTX 1060",
+          "storage": "60 GB"
+        }
+      },
+      "tags": ["featured", "new"]
+    },
+    {
+      "id": "forza-horizon-5",
+      "title": "Forza Horizon 5",
+      "description": "Your Ultimate Horizon Adventure awaits! Explore the vibrant and ever-evolving open world landscapes of Mexico with limitless, fun driving action in hundreds of the world's greatest cars.",
+      "price": 69.99,
+      "originalPrice": 89.99,
+      "platform": "Xbox",
+      "image": "images/forza-horizon-5.jpg",
+      "heroImage": "images/forza-horizon-5-hero.jpg",
+      "rating": 4.6,
+      "ratingCount": 18730,
+      "genre": "Racing",
+      "releaseDate": "2021-11-09",
+      "developer": "Playground Games",
+      "publisher": "Xbox Game Studios",
+      "features": [
+        "Open World Racing",
+        "Multiplayer",
+        "Car Customization",
+        "Mexico Setting"
+      ],
+      "systemRequirements": {
+        "minimum": {
+          "os": "Windows 10",
+          "processor": "Intel i5-4460",
+          "memory": "8 GB RAM",
+          "graphics": "NVIDIA GTX 970",
+          "storage": "110 GB"
+        }
+      },
+      "tags": ["sale"]
+    },
+    {
+      "id": "god-of-war-ragnarok",
+      "title": "God of War Ragnarök",
+      "description": "From Santa Monica Studio comes the sequel to the critically acclaimed God of War (2018). Fimbulwinter is well underway. Kratos and Atreus must journey to each of the Nine Realms in search of answers as Asgardian forces prepare for a prophesied battle that will end the world.",
+      "price": 89.99,
+      "platform": "PC",
+      "image": "images/god-of-war-ragnarok.jpg",
+      "heroImage": "images/god-of-war-ragnarok-hero.jpg",
+      "rating": 4.9,
+      "ratingCount": 21560,
+      "genre": "Action Adventure",
+      "releaseDate": "2022-11-09",
+      "developer": "Santa Monica Studio",
+      "publisher": "Sony Interactive Entertainment",
+      "features": [
+        "Action Combat",
+        "Story-driven",
+        "Norse Mythology",
+        "Single Player"
+      ],
+      "systemRequirements": {
+        "minimum": {
+          "os": "Windows 10",
+          "processor": "Intel i5-6600k",
+          "memory": "8 GB RAM",
+          "graphics": "NVIDIA GTX 1060",
+          "storage": "70 GB"
+        }
+      },
+      "tags": ["new"]
+    },
+    {
+      "id": "fifa-24",
+      "title": "EA SPORTS FC 24",
+      "description": "EA SPORTS FC 24 brings you closer to football than ever before, powered by three cutting-edge technologies that deliver The World's Game in lifelike detail.",
+      "price": 79.99,
+      "platform": "Xbox",
+      "image": "images/fifa-24.jpg",
+      "heroImage": "images/fifa-24-hero.jpg",
+      "rating": 4.3,
+      "ratingCount": 12340,
+      "genre": "Sports",
+      "releaseDate": "2023-09-29",
+      "developer": "EA Sports",
+      "publisher": "Electronic Arts",
+      "features": [
+        "Football Simulation",
+        "Ultimate Team",
+        "Career Mode",
+        "Multiplayer"
+      ],
+      "systemRequirements": {
+        "minimum": {
+          "os": "Windows 10",
+          "processor": "Intel Core i5-6600K",
+          "memory": "8 GB RAM",
+          "graphics": "NVIDIA GeForce GTX 1050 Ti",
+          "storage": "100 GB"
+        }
+      },
+      "tags": ["featured"]
+    },
+    {
+      "id": "red-dead-redemption-2",
+      "title": "Red Dead Redemption 2",
+      "description": "Red Dead Redemption 2 is an epic tale of life in America's unforgiving heartland. The game's vast and atmospheric world will also provide the foundation for a brand new online multiplayer experience.",
+      "price": 49.99,
+      "originalPrice": 79.99,
+      "platform": "PC",
+      "image": "images/red-dead-redemption-2.jpg",
+      "heroImage": "images/red-dead-redemption-2-hero.jpg",
+      "rating": 4.7,
+      "ratingCount": 19870,
+      "genre": "Action Adventure",
+      "releaseDate": "2019-12-05",
+      "developer": "Rockstar Games",
+      "publisher": "Rockstar Games",
+      "features": [
+        "Open World",
+        "Western Setting",
+        "Story-driven",
+        "Multiplayer"
+      ],
+      "systemRequirements": {
+        "minimum": {
+          "os": "Windows 10",
+          "processor": "Intel Core i5-2500K",
+          "memory": "8 GB RAM",
+          "graphics": "NVIDIA GeForce GTX 770",
+          "storage": "150 GB"
+        }
+      },
+      "tags": ["sale"]
+    },
+    {
+      "id": "call-of-duty-modern-warfare-3",
+      "title": "Call of Duty: Modern Warfare III",
+      "description": "Call of Duty: Modern Warfare III continues the epic story of Task Force 141 as they face off against the ultimate threat. The game features a gripping campaign, intense multiplayer, and the return of Zombies.",
+      "price": 89.99,
+      "platform": "Xbox",
+      "image": "images/call-of-duty-mw3.jpg",
+      "heroImage": "images/call-of-duty-mw3-hero.jpg",
+      "rating": 4.1,
+      "ratingCount": 9870,
+      "genre": "First Person Shooter",
+      "releaseDate": "2023-11-10",
+      "developer": "Sledgehammer Games",
+      "publisher": "Activision",
+      "features": [
+        "Campaign Mode",
+        "Multiplayer",
+        "Zombies Mode",
+        "Modern Warfare"
+      ],
+      "systemRequirements": {
+        "minimum": {
+          "os": "Windows 10",
+          "processor": "Intel Core i5-6600",
+          "memory": "8 GB RAM",
+          "graphics": "NVIDIA GeForce GTX 960",
+          "storage": "125 GB"
+        }
+      },
+      "tags": ["new"]
+    },
+    {
+      "id": "the-witcher-3",
+      "title": "The Witcher 3: Wild Hunt",
+      "description": "The Witcher 3: Wild Hunt is a story-driven, next-generation open world role-playing game, set in a visually stunning fantasy universe full of meaningful choices and impactful consequences.",
+      "price": 39.99,
+      "originalPrice": 59.99,
+      "platform": "PC",
+      "image": "images/the-witcher-3.jpg",
+      "heroImage": "images/the-witcher-3-hero.jpg",
+      "rating": 4.9,
+      "ratingCount": 25670,
+      "genre": "RPG",
+      "releaseDate": "2015-05-19",
+      "developer": "CD Projekt Red",
+      "publisher": "CD Projekt",
+      "features": [
+        "Open World",
+        "RPG Elements",
+        "Story-driven",
+        "Fantasy Setting"
+      ],
+      "systemRequirements": {
+        "minimum": {
+          "os": "Windows 7",
+          "processor": "Intel CPU Core i5-2500K",
+          "memory": "6 GB RAM",
+          "graphics": "Nvidia GPU GeForce GTX 660",
+          "storage": "50 GB"
+        }
+      },
+      "tags": ["sale"]
+    },
+    {
+      "id": "minecraft",
+      "title": "Minecraft",
+      "description": "Minecraft is a 3D sandbox game that has no specific goals to accomplish, allowing players a large amount of freedom in choosing how to play the game. However, there is an achievement system.",
+      "price": 26.95,
+      "platform": "Xbox",
+      "image": "images/minecraft.jpg",
+      "heroImage": "images/minecraft-hero.jpg",
+      "rating": 4.5,
+      "ratingCount": 34560,
+      "genre": "Sandbox",
+      "releaseDate": "2011-11-18",
+      "developer": "Mojang Studios",
+      "publisher": "Mojang Studios",
+      "features": ["Sandbox", "Creative Mode", "Survival Mode", "Multiplayer"],
+      "systemRequirements": {
+        "minimum": {
+          "os": "Windows 10",
+          "processor": "Intel Core i3-3210",
+          "memory": "4 GB RAM",
+          "graphics": "Intel HD Graphics 4000",
+          "storage": "1 GB"
+        }
+      },
+      "tags": ["featured"]
+    }
+  ]
+}

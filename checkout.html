@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Checkout - GameZone</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/checkout.css" />
+  </head>
+  <body>
+    <div id="header-placeholder"></div>
+
+    <main class="checkout-page">
+      <div class="container">
+        <div class="checkout-header">
+          <h1>Checkout</h1>
+        </div>
+
+        <div class="checkout-content">
+          <div class="checkout-form">
+            <h2>Customer Information</h2>
+            <form id="checkout-form">
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="firstName">First Name *</label>
+                  <input type="text" id="firstName" name="firstName" required />
+                </div>
+                <div class="form-group">
+                  <label for="lastName">Last Name *</label>
+                  <input type="text" id="lastName" name="lastName" required />
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="email">Email Address *</label>
+                <input type="email" id="email" name="email" required />
+              </div>
+
+              <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" />
+              </div>
+
+              <button type="submit" class="place-order-btn">Place Order</button>
+            </form>
+          </div>
+
+          <div class="order-summary">
+            <h2>Order Summary</h2>
+            <div id="order-items">
+              <!-- Order items will be loaded dynamically -->
+            </div>
+            <div class="order-total" id="order-total">
+              <!-- Order total will be loaded dynamically -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <!-- Notification -->
+    <div id="notification" class="notification"></div>
+
+    <script src="js/header.js"></script>
+    <script src="js/footer.js"></script>
+    <script src="js/cart.js"></script>
+    <script src="js/checkout.js"></script>
+  </body>
+</html>

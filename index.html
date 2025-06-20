@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GameZone - Premium Xbox & PC Games Store</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/home.css" />
+  </head>
+  <body>
+    <div id="header-placeholder"></div>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Level Up Your Gaming Experience</h1>
+        <p>
+          Discover the latest Xbox and PC games with exclusive deals and instant
+          digital delivery
+        </p>
+        <a href="catalog.html" class="cta-button">Shop Now</a>
+      </div>
+    </section>
+
+    <!-- Gaming Platforms Section -->
+    <section class="platforms">
+      <div class="container">
+        <div class="platform-content">
+          <div class="platform-text">
+            <h2>Gaming Platforms</h2>
+            <p>
+              Whether you're an Xbox enthusiast or a PC master race member,
+              we've got you covered with the latest titles and exclusive content
+              for both platforms.
+            </p>
+            <div class="platform-buttons">
+              <a href="catalog.html?platform=xbox" class="platform-btn xbox"
+                >Xbox Games</a
+              >
+              <a href="catalog.html?platform=pc" class="platform-btn pc"
+                >PC Games</a
+              >
+            </div>
+          </div>
+          <div class="platform-image">
+            <img src="images/platforms.jpg" alt="Xbox and PC Gaming" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Games Section -->
+    <section class="featured-games">
+      <div class="container">
+        <h2>Featured Games</h2>
+        <div class="games-grid" id="featured-games">
+          <!-- Games will be loaded dynamically -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Game Genres Section -->
+    <section class="genres">
+      <div class="container">
+        <h2>Explore Game Genres</h2>
+        <div class="genres-grid">
+          <div class="genre-card action">
+            <h3>Action & Adventure</h3>
+            <p>Epic battles and thrilling quests await</p>
+          </div>
+          <div class="genre-card rpg">
+            <h3>RPG</h3>
+            <p>Immerse yourself in rich storytelling</p>
+          </div>
+          <div class="genre-card strategy">
+            <h3>Strategy</h3>
+            <p>Test your tactical skills</p>
+          </div>
+          <div class="genre-card sports">
+            <h3>Sports</h3>
+            <p>Compete in your favorite sports</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Trust & Security Section -->
+    <section class="trust-security">
+      <div class="container">
+        <div class="trust-grid">
+          <div class="trust-item">
+            <div class="trust-icon">🔒</div>
+            <h3>Secure Payments</h3>
+            <p>
+              Your payment information is protected with bank-level security
+              encryption
+            </p>
+          </div>
+          <div class="trust-item">
+            <div class="trust-icon">⚡</div>
+            <h3>Instant Delivery</h3>
+            <p>
+              Get your games immediately after purchase with digital download
+            </p>
+          </div>
+          <div class="trust-item">
+            <div class="trust-icon">🛡️</div>
+            <h3>Money Back Guarantee</h3>
+            <p>30-day return policy for all digital purchases</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Special Offers Section -->
+    <section class="special-offers">
+      <div class="container">
+        <div class="offers-content">
+          <div class="offers-text">
+            <h2>Special Offers</h2>
+            <p>
+              Don't miss out on our limited-time deals and exclusive discounts.
+              New offers every week!
+            </p>
+            <a href="catalog.html" class="offers-btn">View All Deals</a>
+          </div>
+          <div class="offers-visual">
+            <div class="discount-badge">
+              <span class="discount-text">UP TO</span>
+              <span class="discount-number">70%</span>
+              <span class="discount-off">OFF</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Store History Section -->
+    <section class="store-history" id="store-history">
+      <div class="container">
+        <div class="history-content">
+          <div class="history-image">
+            <img src="images/store-history.jpg" alt="GameZone Store History" />
+          </div>
+          <div class="history-text">
+            <h2>Our Story</h2>
+            <p>
+              Founded in 2018, GameZone has been at the forefront of digital
+              gaming distribution in Australia. We started with a simple
+              mission: to provide gamers with easy access to the latest titles
+              at competitive prices.
+            </p>
+            <p>
+              Today, we're proud to serve thousands of Australian gamers with a
+              curated selection of the best Xbox and PC games, backed by
+              exceptional customer service and secure digital delivery.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section" id="contact-section">
+      <div class="container">
+        <div class="contact-content">
+          <div class="contact-info">
+            <h2>Get in Touch</h2>
+            <div class="contact-details">
+              <div class="contact-item">
+                <h3>GameZone Australia</h3>
+                <p>123 Gaming Street<br />Sydney, NSW 2000<br />Australia</p>
+              </div>
+              <div class="contact-item">
+                <h3>Contact Info</h3>
+                <p>Email: info@gamezone.com.au<br />Phone: +61 2 1234 5678</p>
+              </div>
+            </div>
+          </div>
+          <div class="contact-form">
+            <h3>Send us a Message</h3>
+            <form id="contact-form">
+              <div class="form-group">
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  placeholder="Your Name"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="Your Email"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <textarea
+                  id="message"
+                  name="message"
+                  placeholder="Your Message"
+                  rows="5"
+                  required
+                ></textarea>
+              </div>
+              <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div id="footer-placeholder"></div>
+
+    <!-- Notification -->
+    <div id="notification" class="notification"></div>
+
+    <script src="js/header.js"></script>
+    <script src="js/footer.js"></script>
+    <script src="js/cart.js"></script>
+    <script src="js/home.js"></script>
+  </body>
+</html>
